@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.carousel-inner img {
+    width: 100%;
+}
+
+
+
+
+
+/* GALLERY */
+section.gallery {
+    position: relative;
+    width: 96.5vw;
+    height: 85vh;
+    background: lightblue;
+}
+
+section.gallery .image-1 {
+    position: absolute;
+    width: 50%;
+    height: 47%;
+    left: 1%;
+    top: 2%;
+    background: url(media/grad-speech-desktop.png);
+}
+section.gallery .image-2 {
+    position: absolute;
+    width: 22%;
+    height: 47%;
+    left: 53%;
+    top: 2%;
+    background: url(/media/grad-happiness-desktop.png);
+}
+section.gallery .image-3 {
+    position: absolute;
+    position: absolute;
+    width: 22%;
+    height: 47%;
+    left: 76.5%;
+    top: 2%;
+    background: url(media/graduated-boy-desktop-red.png) center/cover no-repeat;
+}
+section.gallery .image-4 {
+    position: absolute;
+    width: 25%;
+    height: 47%;
+    left: 1%;
+    bottom: 2%;
+    background: url(media/duo-grad-photo-deskto.png)
+}
+section.gallery .image-5 {
+    position: absolute;
+    width: 43.5%;
+    height: 47%;
+    left: 27.5%;
+    bottom: 2%;
+    background: url(media/teacher-kids-grouplearning-desktop.png)
+}
+section.gallery .image-6 {
+    position: absolute;
+    width: 25.7%;
+    height: 47%;
+    right: 1.5%;
+    bottom: 2%;
+    background: url(media/thrown-grad-hat-desktop.png) center/cover no-repeat;
+}
+section.gallery .image-7 {
+
+}
+
+/* Media Queries for mobile screen */
+@media (max-width: 768px) {
+    section.gallery {
+        position: relative;
+        width: 96.5vw;
+        height: 85vh;
+        background: lightblue;
+    }
+    
+    section.gallery .image-1 {
+        position: absolute;
+        width: 65%;
+        height: 29%;
+        left: 2%;
+        top: 1%;
+        background: url(media/group-grad-girls-redrobes-mob.png) center;
+    }
+    section.gallery .image-2 {
+        position: absolute;
+        width: 30%;
+        height: 65%;
+        left: 68%;
+        top: 1%;
+        background: url(/media/graduated-boy-mobile-red.png) center;
+    }
+    section.gallery .image-3 {
+        position: absolute;
+        width: 30%;
+        height: 34%;
+        left: 2%;
+        top: 32%;
+        background: url(media/medal-award-mob.png) center;
+    }
+    section.gallery .image-4 {
+        position: absolute;
+        width: 32%;
+        height: 34%;
+        left: 34%;
+        top: 32%;
+        background: url(media/certificate-mob.png)
+    }
+    section.gallery .image-5 {
+        position: absolute;
+        width: 37%;
+        height: 30%;
+        left: 2%;
+        bottom: 2%;
+        background: url(media/trophies-mob.png) center;
+    }
+    section.gallery .image-6 {
+        position: absolute;
+        width: 56%;
+        height: 30%;
+        left: 42%;
+        bottom: 2%;
+        background: url(media/interactive-class-mob.png) center/cover no-repeat;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+section.gallery {
+    max-width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    '1 1 6 2'
+    '7 3 3 .'
+    '7 5 4 4'
+    ;
+    grid-gap: 10px;
+}
+section.gallery .image-1 {
+    grid-area: 1;
+}
+section.gallery .image-2 {
+    grid-area: 2;
+}
+section.gallery .image-3 {
+    grid-area: 3;
+}
+section.gallery .image-4 {
+    grid-area: 4;
+}
+section.gallery .image-5 {
+    grid-area: 5;
+}
+section.gallery .image-6 {
+    grid-area: 6;
+}
+section.gallery .image-7 {
+    grid-area: 7;
+}
+
+section.gallery .image-1,
+section.gallery .image-2,
+section.gallery .image-3,
+section.gallery .image-4,
+section.gallery .image-5,
+section.gallery .image-6,
+section.gallery .image-7 {
+    width: 100%;
+    height: 100%;
+} */
+
+
+
+
+
+
+
+/* 
+@media (max-width: 500px) {
+    .carousel-inner {
+        height: 50vh;
+    }
+}
+@media (max-width: 700px) {
+    .carousel-inner {
+        height: 60vh;
+    }
+} */
