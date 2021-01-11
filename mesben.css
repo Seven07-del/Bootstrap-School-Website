@@ -9,10 +9,7 @@
 .carousel-inner img {
     width: 100%;
 }
-.cauousel-indicators ol,
-.cauousel-indicators li {
-    
-}
+
 .carousel-indicators {
     position: absolute !important;
     bottom: 0% !important;
@@ -208,6 +205,12 @@ footer .row {
     border-radius: 29px;
     padding: 4px 0;
 }
+.newsletter button[type="submit"]:hover {
+    background: transparent;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+}
+
 
 .pages ul {
     list-style-type: none;
@@ -226,7 +229,7 @@ hr {
     margin-bottom: 10px !important;
 }
 footer-footer {
-    
+    padding-bottom: 0.57em;
 }
 /* 
 @media (max-width: 500px) {
