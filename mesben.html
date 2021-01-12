@@ -72,6 +72,7 @@
                 <ul class="dropdown-menu">
                   <li><a href="#staff">Our Staff</a></li>
                   <li><a href="#">Facilities</a></li>
+                  <li><a href="#google-map">Locate Us</a></li>
                   <li><a href="#history">History</a></li>
                   <li><a href="#student-body">Students</a></li>
                 </ul>
@@ -92,6 +93,9 @@
                 contact <span class="caret"></span>
                 </a>
                 <ul class="dropdown-menu">
+                  <li><a href="#contact-form">
+                    Get In Touch
+                  </a></li>
                   <li><a href="#">
                     <i class="fa fa-phone-alt"></i> +233 555 555 555
                   </a></li>
@@ -389,10 +393,49 @@
               </figure>
             </div>
           </section>
-
         </div>
-
       </div>
+
+      <!-- Contact as form area and Google maps API -->
+      <section class="above-footer">
+        <div class="container">
+          <div class="row">
+            <!-- Contact Us Form -->
+            <div class="col-xs-12 col-sm-6 contact-form" id="contact-form">
+              <div>
+                <span>
+                  <i class="im im-mail"></i>
+                  <h3>Don't hesitate to contact us</h3>
+                </span>
+                <h5 class="text-center">Kindly take a little time to fill-out this form area</h5>
+              </div>  
+              <form action="" method="POST">
+                <div class="form-group">
+                  <label for="name" class="sr-only">Full Name</label>
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                  <label for="number" class="sr-only">Phone Number</label>
+                  <input type="tel" name="number" id="number" class="form-control" placeholder="Phone Number" required>
+                </div>
+                <div class="form-group">
+                  <label for="email" class="sr-only">Email</label>
+                  <input type="email" name="email" id="email" placeholder="Your Email Please..." class="form-control">
+                </div>
+                <div class="form-group">
+                  <textarea name="issue" id="message" cols="30" rows="10" class="form-control" placeholder="Message or Issue"></textarea>
+                </div>
+                <button type="submit" class="form-control">submit</button>
+              </form>
+            </div>
+            <!-- Google Maps API -->
+            <div class="col-xs-12 col-sm-6 google-map" id="google-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12725.795869728243!2d-0.06286693623608786!3d5.717320585525958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf81e169fba6ab%3A0x8bc4d54e26fd77c1!2sObaatan%20Junction!5e0!3m2!1sen!2sgh!4v1610435047987!5m2!1sen!2sgh" 
+              width="450" class="text-center" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <!-- Footer -->
       <footer>
@@ -428,10 +471,10 @@
             <div class="col-xs-6 col-sm-3 footer-widget pages">
               <h6>Pages</h6>
               <ul>
+                <li><a href="#">Fee Payment</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#">Admission | Application</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="#academics">Academics</a></li>
                 <li><a href="#gallery">Gallery</a></li>
               </ul>
             </div>
