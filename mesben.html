@@ -36,11 +36,12 @@
     <!-- Wrapper | contains all content -->
     <div class="wrapper">
       <!-- Nav -->
-      <nav class="navbar navbar-default navbar-fixed-top">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
           <div class="navbar-header">
             <a href="#" class="navbar-brand">
-              <i class="im im-graduation-hat"></i><strong> GREAT MESBEN</strong>
+              <i class="im im-graduation-hat"></i>
+              <strong> GREAT MESBEN</strong>
             </a>
             <button
               class="navbar-toggle collapsed"
@@ -169,25 +170,12 @@
           </a>
         </div>
         <!-- End of Carousel -->
-
-        <!-- Fixed Width Container -->
+        
         <div class="container-fluid">
-          <!-- Jumbotron -->
-          <!-- <div class="jumbotron">
-            <h3 class="h2">Why this is the right school for your ward</h3>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-              nobis totam magnam ipsa, iusto minus pariatur illum illo
-              repudiandae in! With all this said, you can get
-              <a href="#"> admission</a> as a student or
-              <a href="#"> apply</a> as a teacher or staff.
-            </p>
-            <a href="#" class="btn btn-default">Get Admission</a> &nbsp; <a href="#" class="btn btn-default">Apply</a>
-          </div> -->
           <!-- Documentation Section -->
-          <section class="row">
-            <div class="col-xs-12 col-sm-8">
-              <h3>Documentation</h3>
+          <section class="documentation">
+            <div class="">
+              <h3 class="text-center">Who We Are</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Deleniti odio eos quis quaerat earum perspiciatis sed vel
@@ -201,48 +189,83 @@
                 amet consequatur <a href="#brief-history">keep reading</a> Perferendis dignissimos.
               </p>
             </div>
-            <div class="col-xs-8 col-sm-4">
+            <!-- <div class="col-xs-9 col-sm-4">
               <img
                 src="/media/little-girl-studying.jpg"
                 alt=""
                 class="img-right img-responsive"
-              />
-            </div>
+              /> -->
           </section>
         </div>
-        <!-- Fluid Container -->
-        <div class="container-fluid">
-          <!-- Mission Statement, Core Values & Aims and Objectives -->
-          <section class="row">
-            <div class="col-xs-12 col-sm-4 padding">
-              <h4 class="h4">Mission Statement</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
-                placeat culpa quae facere dolores perferendis doloremque assumenda qui.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 padding">
-              <h4 class="h4">Core Values</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
-                placeat culpa quae facere dolores perferendis doloremque assumenda qui.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 padding">
-              <h4 class="h4">Aims and Objedtives</h4>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
-                placeat culpa quae facere dolores perferendis doloremque assumenda qui.</p>
-            </div>
+        <!-- Mission Statement, Core Values & Aims and Objectives -->
+        <!-- <div class="container"> -->
+          <section class="mission">
+              <div class="box box-1">
+                <h4 class="h4 text-center">Our Mission</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
+                  placeat culpa quae facere dolores perferendis doloremque assumenda qui.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod placeat culpa quae facere dolores</p>
+              </div>
+              <div class="box box-2">
+                <h4 class="h4 text-center">Core Values</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
+                  placeat culpa quae facere dolores perferendis doloremque assumenda qui.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod placeat culpa quae facere dolores</p>            </div>
+                  <!-- <div class="col-xs-12 col-sm-4 padding">
+                    <h4 class="h4">Aims and Objectives</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia expedita quod 
+                  placeat culpa quae facere dolores perferendis doloremque assumenda qui.</p>
+                </div> -->
           </section>
+        <!-- </div> -->
+        <div class="container-fluid">
           <!-- Main About section -->   <!-- must add margin or spacing around contents -->
           <section class="row">
             <!-- About School -->
-            <div class="col-xs-12 col-sm-6 col-md-3">
-              <div class="thumbnail text-center" id="history">
-                <figure>
+
+            <!-- <div class="history-box">
+              <div class="hb1">
+                <img src="/media/school-building.jpg" alt="">
+              </div>
+              <div class="hb1">
+                <h4>brief History</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti corrupti eligendi, repellat exercitationem
+                   autem excepturi dolore mollitia delectus beatae natus!</p>
+              </div>
+            </div> -->
+
+            <style>
+              .history-box-1 {
+                width: 100%;
+                height: 200px;
+                display: flex;
+                flex-direction: row;
+                padding: 0 6px;
+              }
+              .history-box-1 .left-box img {
+                width: 100%;
+                max-height: 100%;
+              }
+            </style>
+
+            <div class="col-xs-12 col-lg-6">
+              <div class="history-box-1 text-center" id="history">
+                <div class="left-box">
+                  <img src="/media/school-building.jpg" class="img-responsive" alt="school photo">
+                </div>
+                <div class="right-box">
+                  <h4>Brief History</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ad, eligendi commodi 
+                    reprehenderit pariatur placeat nulla deserunt. Deleniti, quod pariatur.</p>
+                </div>
+                <!-- <figure>
                   <img src="/media/school-building.jpg" class="img-responsive" alt="school photo">
                 </figure>
                 <figcaption>
                   <h4>Brief History</h4>
                   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit ad, eligendi commodi 
                     reprehenderit pariatur placeat nulla deserunt. Deleniti, quod pariatur.</p>
-                </figcaption>
+                </figcaption> -->
               </div>
             </div>  
             <!-- About the Proprietor -->
@@ -304,48 +327,8 @@
                 <img src="/media/grad-speech-desktop.png" alt="">
                 <img src="/media/group-grad-girls-redrobes-mob.png" alt="">
               </div>
-
-
-            <!--   <div class="col-xs-12 col-md-8 col-sm-6 img-box-1">
-                <img src="/media/grad-speech-desktop.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-6 col-md-4 col-sm-3 img-box-2">
-                  <img src="/media/grad-happiness-desktop.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-6 col-md-4 col-sm-3 img-box-3">
-                  <img src="/media/certificate-mob.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-12 col-md-8 col-sm-6 img-box-4">
-                  <img src="/media/teacher-kids-grouplearning-desktop.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-12 col-md-8 col-sm-6 img-box-5">
-                  <img src="/media/interactive-class-mob.png" alt="" class="img-responsive" id="img-">                
-                </div>
-                <div class="col-xs-6 col-md-4 col-sm-3 img-box-6">
-                  <img src="/media/duo-grad-photo-deskto.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-6 col-md-4 col-sm-3 img-box-7">
-                  <img src="/media/medal-award-mob.png" alt="" class="img-responsive" id="img-">
-                </div>
-                <div class="col-xs-12 col-md-8 col-sm-6 img-box-8">
-                  <img src="/media/group-grad-girls-redrobes-mob.png" alt="" class="img-responsive" id="img-">
-                </div> -->
             </div>
           </section>
-          <!-- <section class="gallery" id="gallery">
-            <div class="image-1">
-            </div>
-            <div class="image-2">
-            </div>
-            <div class="image-3">
-            </div>
-            <div class="image-4">
-            </div>
-            <div class="image-5">
-            </div>
-            <div class="image-6">              
-            </div>
-          </section> -->
 
           <!-- ACADEMICS | BECE Ranking and analytics -->
           <section>
@@ -605,8 +588,8 @@
 
 
     <script>
-      $(".nav li").on("Click", function () {
-        $(".nav li").removeClass("active");
+      $("nav ul.navbar-nav li").on("Click", function () {
+        $("nav ul.navbar-nav li").removeClass("active");
         $(this).addClass("active");
       });
       $(function(){
